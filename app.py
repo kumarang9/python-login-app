@@ -46,7 +46,7 @@ def login():
         conn.close()
 
         if user:
-            return "Login Success"
+            return "Login Successful from Jenkins CI/CD"
         else:
             return "Invalid Credentials"
 
